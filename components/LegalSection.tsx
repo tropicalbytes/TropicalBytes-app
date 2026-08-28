@@ -15,7 +15,7 @@ export default function LegalSection({
         <span className="mr-2 text-copper">{number}.</span>
         {title}
       </h2>
-      <div className="mt-3 space-y-3 text-sm leading-relaxed text-ink/75 sm:text-[15px]">{children}</div>
+      <div className="mt-3 space-y-3 text-sm leading-relaxed text-ink/75 sm:text-[15px] text-justify">{children}</div>
     </section>
   );
 }

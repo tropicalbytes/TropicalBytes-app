@@ -119,7 +119,7 @@ export default function PartyRequestPage() {
           Bulk &amp; Catering
         </span>
         <h1 className="mt-4 font-display text-3xl font-semibold text-forest sm:text-4xl">Request a Bulk Order</h1>
-        <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70">
+        <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70 text-justify">
           For parties and events, priced per kg, {partyBulkOrders.minimumOrderLabel.toLowerCase()}. This is
           a separate request from our meal subscriptions; our team will follow up to confirm quantities and
           final pricing.

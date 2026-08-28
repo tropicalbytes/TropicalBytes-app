@@ -35,7 +35,7 @@ export default function MenuPage() {
             <h1 className="mt-3 font-display text-4xl font-semibold leading-tight sm:text-5xl">
               Everything we cook, Monday through Saturday
             </h1>
-            <p className="mt-4 max-w-xl text-cream/80">
+            <p className="mt-4 max-w-xl text-cream/80 text-justify">
               Weekly meal plans, salads, à la carte add-ons, and bulk catering — jump to any section below.
             </p>
           </Reveal>
@@ -49,7 +49,7 @@ export default function MenuPage() {
         <Reveal>
           <p className="text-xs font-semibold uppercase tracking-widest text-copper">Meal Plans</p>
           <h2 className="mt-3 font-display text-3xl font-semibold text-forest">This week&apos;s menu</h2>
-          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink/70">
+          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink/70 text-justify">
             Every subscription follows the same Monday–Saturday rhythm (Sunday is off). Choose Veg or
             Non-Veg, Lunch, Dinner, or both — here&apos;s exactly what&apos;s cooking each day.
           </p>
@@ -81,7 +81,7 @@ export default function MenuPage() {
                   </div>
                 </div>
                 {day === "Thursday" && (
-                  <p className="mt-4 border-t border-sand pt-3 text-xs text-ink/50">
+                  <p className="mt-4 border-t border-sand pt-3 text-xs text-ink/50 text-justify">
                     On the combined Lunch + Dinner plan, Thursday&apos;s Non-Veg lunch is Nasi Lemak Chicken
                     with Butter Garlic Rice instead of the Thai Green Curry Chicken shown above.
                   </p>
@@ -125,7 +125,7 @@ export default function MenuPage() {
           <Reveal>
             <p className="text-xs font-semibold uppercase tracking-widest text-copper-light">Salads</p>
             <h2 className="mt-3 font-display text-3xl font-semibold">Fresh, composed daily</h2>
-            <p className="mt-3 max-w-xl text-sm leading-relaxed text-cream/75">
+            <p className="mt-3 max-w-xl text-sm leading-relaxed text-cream/75 text-justify">
               Every salad is priced at {salads.priceLabel}, available for lunch or dinner.
             </p>
           </Reveal>
@@ -155,7 +155,7 @@ export default function MenuPage() {
         <Reveal>
           <p className="text-xs font-semibold uppercase tracking-widest text-copper">Add-ons</p>
           <h2 className="mt-3 font-display text-3xl font-semibold text-forest">Round out your order</h2>
-          <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70">
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70 text-justify">
             Optional extras across breakfast, Chinese, burgers, pastas, desserts, ice creams, and drinks —
             add any of these when you submit a request.
           </p>
@@ -191,7 +191,7 @@ export default function MenuPage() {
               Bulk &amp; Catering
             </span>
             <h2 className="mt-4 font-display text-3xl font-semibold text-forest">Party &amp; Bulk Orders</h2>
-            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink/70">
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink/70 text-justify">
               Priced per kg, {partyBulkOrders.minimumOrderLabel.toLowerCase()}. For events and bulk catering
               only — handled separately from meal subscriptions.
             </p>

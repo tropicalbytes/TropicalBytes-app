@@ -15,7 +15,7 @@ export default function HowItWorksPage() {
       <Reveal>
         <p className="text-xs font-semibold uppercase tracking-widest text-copper">How It Works</p>
         <h1 className="mt-3 font-display text-4xl font-semibold text-forest">From plan to plate in four steps</h1>
-        <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70">
+        <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70 text-justify">
           No online payment, no account to set up. Submit a request and our team takes it from there.
         </p>
       </Reveal>

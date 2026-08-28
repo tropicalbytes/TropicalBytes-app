@@ -229,11 +229,11 @@ export const salads = {
       day: "Monday",
       nonVeg: {
         name: "GRILLED CHICKEN SALAD",
-        description: "grilled chicken Strips, grilled corn, lettuce, tomatoes, red capsicum, cucumber, red onions, parmesan cheese",
+        description: "grilled chicken strips, grilled corn, lettuce, tomatoes, red capsicum, cucumber, red onions, parmesan cheese",
       },
       veg: {
         name: "GRILLED PANEER SALAD",
-        description: "grilled paneer Strips, grilled corn, lettuce, tomatoes, red capsicum, cucumber, red onions, parmesan cheese",
+        description: "grilled paneer strips, grilled corn, lettuce, tomatoes, red capsicum, cucumber, red onions, parmesan cheese",
       },
     },
     {
@@ -251,33 +251,33 @@ export const salads = {
       day: "Wednesday",
       nonVeg: {
         name: "ASIAN CHICKEN SALAD",
-        description: "shredded Chicken, chopped almonds, lettuce, carrots, crunchy noodles, cilantro, spring onion",
+        description: "shredded chicken, chopped almonds, lettuce, carrots, crunchy noodles, cilantro, spring onion",
       },
       veg: {
         name: "ASIAN SALAD VEG",
-        description: "Paneer, chopped almonds, lettuce, carrots, crunchy noodles, cilantro, spring onion",
+        description: "paneer, chopped almonds, lettuce, carrots, crunchy noodles, cilantro, spring onion",
       },
     },
     {
       day: "Thursday",
       nonVeg: {
         name: "TROPICAL CHICKEN SALAD",
-        description: "shredded chicken, lettuce, capcicum, pineapple, spring onions, cashews, cucumber with special dressing",
+        description: "shredded chicken, lettuce, capsicum, pineapple, spring onions, cashews, cucumber with special dressing",
       },
       veg: {
         name: "TROPICAL SALAD VEG",
-        description: "paneer, lettuce, capcicum, pineapple, spring onions, cashews, cucumber with special dressing",
+        description: "paneer, lettuce, capsicum, pineapple, spring onions, cashews, cucumber with special dressing",
       },
     },
     {
       day: "Friday",
       nonVeg: {
         name: "BBQ CHICKEN SALAD",
-        description: "chicken strips, lettuce, tomato, corn, shredded cheddar cheese, tortilla chips (1/2 cup ranch dressing, 2 table spoon BBQ sauce)",
+        description: "chicken strips, lettuce, tomato, corn, shredded cheddar cheese, tortilla chips (1/2 cup ranch dressing, 2 tablespoon BBQ sauce)",
       },
       veg: {
         name: "BBQ SALAD VEG",
-        description: "paneer, lettuce, tomato, corn, shredded cheddar cheese, tortilla chips (1/2 cup ranch dressing, 2 table spoon BBQ sauce)",
+        description: "paneer, lettuce, tomato, corn, shredded cheddar cheese, tortilla chips (1/2 cup ranch dressing, 2 tablespoon BBQ sauce)",
       },
     },
     {
@@ -441,7 +441,7 @@ export const partyBulkOrders = {
     { name: "GHEE RICE", pricePerKg: 500 },
     { name: "VEG FRIED RICE", pricePerKg: 750 },
     { name: "VEG PULAV", pricePerKg: 750 },
-    { name: "VEG BIRIYANI", pricePerKg: 1000 },
+    { name: "VEG BIRYANI", pricePerKg: 1000 },
   ] as PartyItem[],
 };
 

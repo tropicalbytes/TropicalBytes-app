@@ -583,7 +583,7 @@ export default function SubscribePage() {
     <section className="mx-auto max-w-content px-5 py-16 md:px-8">
       <p className="text-xs font-semibold uppercase tracking-widest text-copper">Subscription Request</p>
       <h1 className="mt-3 font-display text-3xl font-semibold text-forest sm:text-4xl">Set up your meal plan</h1>
-      <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70">
+      <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70 text-justify">
         A quick, guided form: this is a request, not a payment. Our team will contact you to confirm
         everything.
       </p>

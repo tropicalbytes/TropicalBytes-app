@@ -27,7 +27,7 @@ export default function AboutPage() {
             <h1 className="mt-3 max-w-2xl font-display text-4xl font-semibold leading-tight sm:text-5xl">
               We handle the everyday question of &ldquo;what&apos;s for lunch,&rdquo; so you don&apos;t have to.
             </h1>
-            <p className="mt-5 max-w-xl text-cream/80">
+            <p className="mt-5 max-w-xl text-cream/80 text-justify">
               {business.name} is a meal subscription service built for people who want home-style food on a
               schedule that fits their life, not the other way around.
             </p>
@@ -73,7 +73,7 @@ export default function AboutPage() {
             having to think about it.&rdquo;
           </p>
           <div>
-            <p className="text-sm leading-relaxed text-ink/70">
+            <p className="text-sm leading-relaxed text-ink/70 text-justify">
               Every plan starts as a conversation. You tell us your preferences and schedule, we confirm the
               details, and your meals become one less thing to plan for.
             </p>

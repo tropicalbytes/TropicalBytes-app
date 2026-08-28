@@ -21,7 +21,7 @@ export default function PlansPage() {
             <h1 className="mt-3 font-display text-4xl font-semibold leading-tight sm:text-5xl">
               Choose the rhythm that fits your week
             </h1>
-            <p className="mt-4 max-w-xl text-cream/80">
+            <p className="mt-4 max-w-xl text-cream/80 text-justify">
               Every plan includes your choice of lunch and/or dinner, vegetarian or non-vegetarian meals, and
               optional add-ons. Submitting a request doesn&apos;t charge you. Our team confirms everything
               with you first.
@@ -46,7 +46,7 @@ export default function PlansPage() {
           <div className="mt-14 rounded-xl2 border border-sand bg-white p-8 shadow-soft">
             <p className="text-xs font-semibold uppercase tracking-widest text-copper">2. Then pick your combination</p>
             <p className="mt-3 font-display text-xl font-semibold text-forest">Weekly pricing by meal type</p>
-            <p className="mt-1 text-sm text-ink/70">
+            <p className="mt-1 text-sm text-ink/70 text-justify">
               Bi-Weekly and Monthly apply a 5% discount on top of these weekly rates. See the exact daily
               menu on our{" "}
               <a href="/menu#meal-plans" className="underline underline-offset-2 hover:text-copper-dark">
@@ -73,7 +73,7 @@ export default function PlansPage() {
                 No subscription needed
               </span>
               <p className="mt-4 font-display text-2xl font-semibold sm:text-3xl">Not looking for a subscription?</p>
-              <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-cream/80">
+              <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-cream/80 text-justify">
                 Try TropicalBytes one plate at a time: request a single meal and we&apos;ll confirm delivery with
                 you directly, no commitment required.
               </p>

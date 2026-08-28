@@ -60,7 +60,7 @@ export default function HomePage() {
               </h1>
             </Reveal>
             <Reveal delay={160}>
-              <p className="mt-6 max-w-md text-base leading-relaxed text-cream/80">
+              <p className="mt-6 max-w-md text-base leading-relaxed text-cream/80 text-justify">
                 {business.description}
               </p>
             </Reveal>
@@ -106,7 +106,7 @@ export default function HomePage() {
                     </div>
                   ))}
                 </div>
-                <p className="mt-6 text-sm leading-relaxed text-cream/75">
+                <p className="mt-6 text-sm leading-relaxed text-cream/75 text-justify">
                   Set your plan once (lunch, dinner, or both) and every day takes care of itself until you
                   tell us otherwise.
                 </p>
@@ -129,7 +129,7 @@ export default function HomePage() {
             </h2>
           </Reveal>
           <Reveal delay={120}>
-            <p className="text-base leading-relaxed text-ink/70">
+            <p className="text-base leading-relaxed text-ink/70 text-justify">
               {business.name} started with a simple idea: good, home-style food shouldn&apos;t require you to
               cook it or choose it every single day. We plan the week, you choose the rhythm: lunch, dinner,
               or both, vegetarian or not, for as long as suits you.

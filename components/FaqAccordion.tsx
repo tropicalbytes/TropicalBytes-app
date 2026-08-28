@@ -31,7 +31,7 @@ export default function FaqAccordion({
             </button>
             <div className={`accordion-panel ${isOpen ? "is-open" : ""}`}>
               <div>
-                <p className="px-6 pb-5 text-sm leading-relaxed text-ink/70">{item.answer}</p>
+                <p className="px-6 pb-5 text-sm leading-relaxed text-ink/70 text-justify">{item.answer}</p>
               </div>
             </div>
           </div>

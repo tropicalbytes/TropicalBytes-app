@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="mx-auto grid max-w-content gap-10 px-5 py-14 md:grid-cols-4 md:px-8">
         <div>
           <p className="font-display text-2xl font-semibold text-cream">{business.name}</p>
-          <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/70">
+          <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/70 text-justify">
             {business.description}
           </p>
         </div>

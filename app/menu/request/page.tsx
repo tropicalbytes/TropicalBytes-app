@@ -299,9 +299,8 @@ function SelectPill({
       type="button"
       aria-pressed={selected}
       onClick={onSelect}
-      className={`inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-all duration-200 hover:-translate-y-0.5 ${
-        selected ? "border-forest bg-forest text-cream shadow-soft" : "border-sand bg-white text-forest"
-      } ${className}`}
+      className={`inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-all duration-200 hover:-translate-y-0.5 ${selected ? "border-forest bg-forest text-cream shadow-soft" : "border-sand bg-white text-forest"
+        } ${className}`}
     >
       {selected && (
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
@@ -319,7 +318,7 @@ export default function IndividualMealRequestPage() {
       <Reveal>
         <p className="text-xs font-semibold uppercase tracking-widest text-copper">Individual Meal Request</p>
         <h1 className="mt-3 font-display text-3xl font-semibold text-forest sm:text-4xl">Request a single meal</h1>
-        <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70">
+        <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70 text-justify">
           Not ready for a subscription? Order a one-off meal and we&apos;ll confirm availability and delivery
           with you.
         </p>
