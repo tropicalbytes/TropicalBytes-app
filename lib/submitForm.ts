@@ -1,4 +1,4 @@
-import { GAS_WEB_APP_URL } from "./config";
+const GAS_WEB_APP_URL = process.env.NEXT_PUBLIC_GAS_WEB_APP_URL || "";
 
 export type SubmitResult = { ok: true; enquiryId?: string } | { ok: false; message: string };
 
@@ -41,11 +41,13 @@ export async function submitToGoogleSheets(
     });
 
     if (!response.ok) {
+      console.error("submitToGoogleSheets HTTP error:", response.status, response.statusText);
       return { ok: false, message: GENERIC_ERROR };
     }
 
     const data = await response.json().catch(() => ({ status: "ok" }));
     if (data.status && data.status !== "ok") {
+      console.error("submitToGoogleSheets Backend error:", data);
       // The backend returns a safe, generic message on failure (never a raw
       // stack trace or internal error) — pass it through when present.
       return { ok: false, message: typeof data.message === "string" ? data.message : GENERIC_ERROR };
@@ -53,6 +55,7 @@ export async function submitToGoogleSheets(
 
     return { ok: true, enquiryId: typeof data.enquiryId === "string" ? data.enquiryId : undefined };
   } catch (error) {
+    console.error("submitToGoogleSheets Network/Fetch error:", error);
     return {
       ok: false,
       message: "Something went wrong while submitting your request. Please check your connection and try again, or contact us directly.",
